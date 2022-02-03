@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* global style start */
+  .button_style {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #FDB467;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    border: none;
+    padding: 13px 50px;
+    margin-top: 40px;
+    border-radius: 2px;
+  }
+  /* global style end */
+  /* header section start */
+  .header_section{
+    height: 650px;
+    width: 100%;
+    background-image: url(../images/Image_1.png);
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  .header_content{
+    padding: 200px 120px;
+    
+  }
+  .header_content h1{
+      font-size: 70px;
+     
+  }
+  .header_content p{
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  
+  /* main content section start */
+  .main_content_area{
+    height: 660px;
+    width: 100%;
+    padding: 80px 120px;
+    background-color: #1E1D1B;
+    
+  }
+  .content_left{
+      float: left;
+      width: 50%;
+      height: 400px;
+      padding: 5px;
+      text-align: center;
+      color: #FFFFFF;
+      background-color: #272624;
+      border-radius: 5px;
+
+  }
+  .content_regform{
+      float: right;
+      width: 50%;
+      height: 400px;
+      padding: 5px;
+      text-align: center;
+      color: #FFFFFF;
+      background-color: #1E1D1B;
+      border-radius: 5px;
+      
+  }
+  .content_left p{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 2px;
+  }
+/*main content section end */
+
+
+/*workspace section start */
+.work_shop_area{
+    height: 660px;
+    background-color: #eee;
+    
+}
+.card_area{
+    float: left;
+    width: 35%;
+    height: 660px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.card_area h2{
+  font-size: 35px;
+  margin-top: 150px;
+}
+.card_area p{
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+.right_ima{
+    float: right;
+    width: 70%;
+}
+.right_ima img{
+    width: 100%;
+    height: 660px;
+    background-size: cover;
+}
+
+/*workspace section End */
+/*Studio section Start */
+.studio_section{
+    height: 660px;
+    background-color: #1E1E1E;
+}
+.studio_img_left{
+  float: left;
+  width: 70%;
+}
+.studio_img_left img{
+    width: 100%;
+    height: 660px;
+    background-size: cover;
+}
+.content_right_studio{
+    float: right;
+    width: 30%;
+    height: 660px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: #fff;
+    
+}
+.content_right_studio h2{
+  font-size: 35px;
+  margin-top: 150px;
+}
+.content_right_studio p{
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+/*Studio section end */
+/*student section Start */
+.from_section{
+  background-image: url(../images/Image_4.png);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    
+}
+.conetent-sention{
+  width: 50%;
+  height: 500px;
+  background-color: rgb(230, 225, 225);
+  color: rgb(0, 0, 0);
+  padding: 150px 90px;
+  position: absolute;
+   
+}
+.conetent-sention h2{
+    
+}
+.conetent-sention p{
+
+}
+/*student section end */
+
+/* Footer section part Start */
+.footer_part{
+  width: 100%;
+  height: 660px;
+  background-color: rgb(34, 32, 32);
+  color: white;
+}
+.footer_part form input{
+  padding: 13px;
+  width: 350px;
+  background-color: rgb(34, 32, 32);
+  border: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.footer_part form{
+  padding: 0 400px;
+}
+.content_footer h1{
+  padding-top: 150px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+.content_footer p{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  padding: 0 300px;
+}
+/* Footer section part end */
